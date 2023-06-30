@@ -1,0 +1,111 @@
+{
+	"profile": "tabular-data-package",
+	"name": "Experiment Name",
+	"title": "Title of Experiment",
+	"description": "Description of Experiment",
+	"resources": [
+		{
+			"profile": "data-resource",
+			"name": "books.csv",
+			"path": "/home/swati/api/downloads/books.csv",
+			"title": "CSV File Data Resource",
+			"description": "An example of a CSV file",
+			"format": "csv",
+			"mediatype": "text/csv",
+			"encoding": "UTF-8",
+			"bytes": "144",
+			"hash": "",
+			"schema": {
+				"fields": [
+					{
+						"name": "id",
+						"types": "",
+						"format": "default",
+						"description": "id",
+						"constraints": {
+							"required": "",
+							"unique": ""
+						},
+						"stats": {
+							"min": 1,
+							"max": 5,
+							"mean": 3,
+							"std": 2,
+							"nullValueCounts": 5,
+							"present_value_counts": 5,
+							"uniqueValueCounts": 5,
+							"sample_value": [
+								"1",
+								"2"
+							],
+							"nullProportion": 1,
+							"uniqueProportion": 1
+						}
+					},
+					{
+						"name": "name",
+						"types": "string",
+						"format": "default",
+						"description": "name",
+						"constraints": {
+							"required": "",
+							"unique": ""
+						},
+						"stats": {
+							"min": 0,
+							"max": 0,
+							"mean": 0,
+							"std": 0,
+							"nullValueCounts": 5,
+							"present_value_counts": 5,
+							"uniqueValueCounts": 5,
+							"sample_value": [
+								"wings of fire",
+								"Da Vinci Code"
+							],
+							"nullProportion": 1,
+							"uniqueProportion": 1
+						}
+					},
+					{
+						"name": "author",
+						"types": "string",
+						"format": "default",
+						"description": "author",
+						"constraints": {
+							"required": "",
+							"unique": ""
+						},
+						"stats": {
+							"min": 0,
+							"max": 0,
+							"mean": 0,
+							"std": 0,
+							"nullValueCounts": 5,
+							"present_value_counts": 5,
+							"uniqueValueCounts": 5,
+							"sample_value": [
+								"APJ",
+								"Dan Brown"
+							],
+							"nullProportion": 1,
+							"uniqueProportion": 1
+						}
+					}
+				]
+			},
+			"dialect": {
+				"caseSensitiveHeader": "false",
+				"delimiter": ",",
+				"doubleQuote": "true",
+				"header": "true",
+				"lineTerminator": "\r\n",
+				"quoteChar": "",
+				"skipInitialSpace": "true",
+				"rowsCount": 5,
+				"columnsCount": 3
+			},
+			"version": "1.0.0"
+		}
+	]
+}

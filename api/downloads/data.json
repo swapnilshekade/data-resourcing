@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "age": 30,
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY"
+    },
+    "phone_numbers": [
+      "555-1234",
+      "555-5678"
+    ],
+    "is_active": true,
+    "salary": 50000,
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "age": 28,
+    "address": {
+      "street": "456 Elm St",
+      "city": "Los Angeles",
+      "state": "CA"
+    },
+    "phone_numbers": [
+      "555-9876"
+    ],
+    "is_active": false,
+    "salary": 60000,
+    "skills": [
+      "Java",
+      "C++",
+      "HTML"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Robert Johnson",
+    "email": "robertjohnson@example.com",
+    "age": 35,
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL"
+    },
+    "phone_numbers": [
+      "555-4321",
+      "555-8765"
+    ],
+    "is_active": true,
+    "salary": 70000,
+    "skills": [
+      "Ruby",
+      "CSS",
+      "PHP"
+    ]
+  }
+]
+
